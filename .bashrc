@@ -7,13 +7,13 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-export PATH="$HOME/.local/bin:$PATH"
-alias pycharm="bash pycharm-2022.1.3/bin/pycharm.sh"
 
-source .shells/git
-source .shells/alias
 
-# Welcome message
-date '+%A, %B %-d %Y'
-# sudo pacman -S neofetch
-neofetch --off --color_blocks off --underline off --disable host theme icons shell host
+
+source .shells/intro.sh
+source .shells/media.sh
+source .shells/myapps.sh
+source .shells/pacman.sh
+source .shells/path.sh
+source .shells/system.sh
+source .shells/tools.sh
